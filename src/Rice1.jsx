@@ -63,7 +63,7 @@ const Rice1 = () => {
       {/* Right Section */}
       <div className="md:w-1/2 flex items-center justify-center mt-10 md:mt-0">
         <div
-          className="bg-[#3D0707] rounded-2xl p-4 md:p-6 shadow-xl"
+          className="bg-[#3D0707] rounded-full p-4 md:p-6 shadow-xl"
           data-aos="fade-down-left"
         >
           <img

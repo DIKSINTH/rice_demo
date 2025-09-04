@@ -16,7 +16,7 @@ const Rice2 = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-12 bg-[#5A0B0B]">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-12 bg-[#310079]">
       {/* Left Section */}
       <div className="md:w-1/2 text-center md:text-left space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold text-white">Welcome</h1>
@@ -64,7 +64,7 @@ const Rice2 = () => {
       {/* Right Section */}
       <div className="md:w-1/2 flex items-center justify-center mt-10 md:mt-0">
         <div
-          className="bg-[#3D0707] rounded-2xl p-4 md:p-6 shadow-xl"
+          className="bg-[#3D0707] rounded-full p-4 md:p-6 shadow-xl"
           data-aos="fade-down-left"
         >
           <img
