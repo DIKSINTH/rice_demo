@@ -21,9 +21,18 @@ const Rice3 = () => {
       <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-12 bg-[#5A0B0B]">
         {/* Left Section */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
-          <h1 className="text-4xl md:text-5xl font-bold text-white">Rice 3</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white">Welcome</h1>
           <p className="text-sm md:text-base leading-relaxed text-gray-200">
-            Detailed description for Rice3 goes here...
+            At Tastic, we believe that every meal should be a moment of
+            perfection. For generations, we have been bringing families together
+            with rice that is not only delicious but also wholesome and
+            reliable.
+          </p>
+          <p className="text-sm md:text-base leading-relaxed text-gray-200">
+            Our promise is simple – Perfect. Every time. Whether you’re cooking
+            a quick family dinner, a nourishing health-conscious dish, or a
+            special feast, Tastic rice delivers consistent quality, great taste,
+            and the perfect texture that makes every plate memorable.
           </p>
 
           {/* Small rice images as buttons */}
