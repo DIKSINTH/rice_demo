@@ -1,17 +1,23 @@
-import React from "react";
-import rice1 from "./assets/rice1.png";
-import rice2 from "./assets/rice2.png";
-import rice3 from "./assets/rice3.png";
-import products from "./assets/rice1.png";
+import rice1 from "../assets/rice1.png";
+import rice2 from "../assets/rice2.png";
+import rice3 from "../assets/rice3.png";
+import products from "../assets/rice1.png";
 import { useNavigate } from "react-router-dom";
-import Timeline from "./Timeline.jsx";
 import Footer from "./Footer.jsx";
+import Header from "./Header.jsx";
+import Products from "./Products.jsx";
+import AboutUs from "./AboutUs.jsx";
+import Contact from "./Contact.jsx";
+import FAQ from "./Faq.jsx";
 
 const Home = () => {
   const navigate = useNavigate();
 
   return (
     <>
+      <Header />
+
+      {/* Hero Section */}
       <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-12 bg-[#5A0B0B]">
         {/* Left Section */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
@@ -66,7 +72,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Timeline />
+      <AboutUs />
+      <Products />
+      <FAQ />
+      <Contact />
       <Footer />
     </>
   );
