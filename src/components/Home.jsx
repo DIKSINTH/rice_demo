@@ -26,6 +26,22 @@ const Home = () => {
             Welcome to Tastic
           </h1>
 
+          {/* Two paragraphs grouped */}
+          <div className="space-y-4 text-sm sm:text-base md:text-lg leading-relaxed text-gray-200">
+            <p>
+              At Tastic, we believe that every meal should be a moment of
+              perfection. For generations, we have been bringing families
+              together with rice that is not only delicious but also wholesome
+              and reliable.
+            </p>
+            <p>
+              Our promise is simple – Perfect. Every time. Whether you’re
+              cooking a quick family dinner, a nourishing health-conscious dish,
+              or a special feast, Tastic rice delivers consistent quality, great
+              taste, and the perfect texture that makes every plate memorable.
+            </p>
+          </div>
+
           {/* Small rice images as buttons */}
           <div className="flex items-center justify-center md:justify-start gap-4 pt-4 flex-wrap">
             <button onClick={() => navigate("/rice1")}>
@@ -62,21 +78,6 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
-
-      {/* Two paragraphs grouped */}
-      <div className="space-y-4 text-sm sm:text-base md:text-lg leading-relaxed text-gray-200">
-        <p>
-          At Tastic, we believe that every meal should be a moment of
-          perfection. For generations, we have been bringing families together
-          with rice that is not only delicious but also wholesome and reliable.
-        </p>
-        <p>
-          Our promise is simple – Perfect. Every time. Whether you’re cooking a
-          quick family dinner, a nourishing health-conscious dish, or a special
-          feast, Tastic rice delivers consistent quality, great taste, and the
-          perfect texture that makes every plate memorable.
-        </p>
       </div>
 
       {/* Other Sections */}
