@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react"; // for icons, install: npm install lucide-react
-import logo from "../assets/rice1.png"; // replace with your actual logo
+import { Menu, X } from "lucide-react";
+import logo from "../assets/rice1.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-[#5A0B0B] text-white shadow-md">
+    <header className="bg-[#5A0B0B] text-white shadow-md min-h-[60px]">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">

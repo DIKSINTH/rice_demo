@@ -22,7 +22,7 @@ const Home = () => {
       {/* Hero Section */}
       <div className="py-6 min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-12 bg-[#5A0B0B]">
         {/* Left Section (Text + Rice buttons) */}
-        <div className="md:w-1/2 text-center md:text-left space-y-6">
+        <div className="space-y-3 md:w-1/2 text-center md:text-left space-y-6">
           {/* Text Section */}
           <div className="order-1 md:order-1">
             <h1 className="text-4xl md:text-5xl font-bold text-white">
