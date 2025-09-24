@@ -19,7 +19,7 @@ const Home = () => {
       <Header />
 
       {/* Hero Section */}
-      <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-12 bg-[#5A0B0B]">
+      <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-12 bg-[#5A0B0B] lg:flex-col">
         {/* Left Section */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
