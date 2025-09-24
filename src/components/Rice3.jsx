@@ -27,47 +27,6 @@ const Rice3 = () => {
         {/* Left Section */}
         <div className="md:w-1/2 text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Welcome</h1>
-
-          {/* Paragraphs grouped in one div */}
-          <div className="space-y-4">
-            <p className="text-sm md:text-base leading-relaxed text-gray-200">
-              At Tastic, we believe that every meal should be a moment of
-              perfection. For generations, we have been bringing families
-              together with rice that is not only delicious but also wholesome
-              and reliable.
-            </p>
-            <p className="text-sm md:text-base leading-relaxed text-gray-200">
-              Our promise is simple – Perfect. Every time. Whether you’re
-              cooking a quick family dinner, a nourishing health-conscious dish,
-              or a special feast, Tastic rice delivers consistent quality, great
-              taste, and the perfect texture that makes every plate memorable.
-            </p>
-          </div>
-
-          {/* Small rice images as buttons */}
-          <div className="flex items-center justify-center md:justify-start gap-4 pt-4">
-            <button onClick={() => navigate("/rice1")}>
-              <img
-                src={rice1}
-                alt="Rice1"
-                className="w-20 h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
-              />
-            </button>
-            <button onClick={() => navigate("/rice2")}>
-              <img
-                src={rice2}
-                alt="Rice2"
-                className="w-20 h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
-              />
-            </button>
-            <button onClick={() => navigate("/rice3")}>
-              <img
-                src={rice3}
-                alt="Rice3"
-                className="w-20 h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
-              />
-            </button>
-          </div>
         </div>
 
         {/* Right Section */}
@@ -82,6 +41,47 @@ const Rice3 = () => {
               className="max-w-full h-auto rounded-xl"
             />
           </div>
+        </div>
+
+        {/* Small rice images as buttons */}
+        <div className="flex items-center justify-center md:justify-start gap-4 pt-4">
+          <button onClick={() => navigate("/rice1")}>
+            <img
+              src={rice1}
+              alt="Rice1"
+              className="w-20 h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
+            />
+          </button>
+          <button onClick={() => navigate("/rice2")}>
+            <img
+              src={rice2}
+              alt="Rice2"
+              className="w-20 h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
+            />
+          </button>
+          <button onClick={() => navigate("/rice3")}>
+            <img
+              src={rice3}
+              alt="Rice3"
+              className="w-20 h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
+            />
+          </button>
+        </div>
+
+        {/* Paragraphs grouped in one div */}
+        <div className="space-y-4">
+          <p className="text-sm md:text-base leading-relaxed text-gray-200">
+            At Tastic, we believe that every meal should be a moment of
+            perfection. For generations, we have been bringing families together
+            with rice that is not only delicious but also wholesome and
+            reliable.
+          </p>
+          <p className="text-sm md:text-base leading-relaxed text-gray-200">
+            Our promise is simple – Perfect. Every time. Whether you’re cooking
+            a quick family dinner, a nourishing health-conscious dish, or a
+            special feast, Tastic rice delivers consistent quality, great taste,
+            and the perfect texture that makes every plate memorable.
+          </p>
         </div>
       </div>
 

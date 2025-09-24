@@ -25,31 +25,6 @@ const Home = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Welcome to Tastic
           </h1>
-
-          {/* Small rice images as buttons */}
-          <div className="flex items-center justify-center md:justify-start gap-4 pt-4">
-            <button onClick={() => navigate("/rice1")}>
-              <img
-                src={rice1}
-                alt="Rice1"
-                className="w-20 h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
-              />
-            </button>
-            <button onClick={() => navigate("/rice2")}>
-              <img
-                src={rice2}
-                alt="Rice2"
-                className="w-20 h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
-              />
-            </button>
-            <button onClick={() => navigate("/rice3")}>
-              <img
-                src={rice3}
-                alt="Rice3"
-                className="w-20 h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
-              />
-            </button>
-          </div>
         </div>
 
         {/* Right Section */}
@@ -61,6 +36,31 @@ const Home = () => {
               className="max-w-full h-auto rounded-xl"
             />
           </div>
+        </div>
+
+        {/* Small rice images as buttons */}
+        <div className="flex items-center justify-center md:justify-start gap-4 pt-4">
+          <button onClick={() => navigate("/rice1")}>
+            <img
+              src={rice1}
+              alt="Rice1"
+              className="w-20 h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
+            />
+          </button>
+          <button onClick={() => navigate("/rice2")}>
+            <img
+              src={rice2}
+              alt="Rice2"
+              className="w-20 h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
+            />
+          </button>
+          <button onClick={() => navigate("/rice3")}>
+            <img
+              src={rice3}
+              alt="Rice3"
+              className="w-20 h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
+            />
+          </button>
         </div>
 
         {/* Two paragraphs grouped in one div */}
