@@ -31,31 +31,6 @@ const Rice3 = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
             Welcome to Tastic
           </h1>
-
-          {/* Small rice images as buttons */}
-          <div className="flex items-center justify-center md:justify-start gap-4 pt-4 flex-wrap">
-            <button onClick={() => navigate("/rice1")}>
-              <img
-                src={rice1}
-                alt="Rice1"
-                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
-              />
-            </button>
-            <button onClick={() => navigate("/rice2")}>
-              <img
-                src={rice2}
-                alt="Rice2"
-                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
-              />
-            </button>
-            <button onClick={() => navigate("/rice3")}>
-              <img
-                src={rice3}
-                alt="Rice3"
-                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
-              />
-            </button>
-          </div>
         </div>
 
         {/* Right Section */}
@@ -70,6 +45,31 @@ const Rice3 = () => {
               className="max-w-[250px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[450px] h-auto rounded-xl"
             />
           </div>
+        </div>
+
+        {/* Small rice images as buttons */}
+        <div className="flex items-center justify-center md:justify-start gap-4 pt-4 flex-wrap">
+          <button onClick={() => navigate("/rice1")}>
+            <img
+              src={rice1}
+              alt="Rice1"
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
+            />
+          </button>
+          <button onClick={() => navigate("/rice2")}>
+            <img
+              src={rice2}
+              alt="Rice2"
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
+            />
+          </button>
+          <button onClick={() => navigate("/rice3")}>
+            <img
+              src={rice3}
+              alt="Rice3"
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
+            />
+          </button>
         </div>
 
         {/* Paragraphs grouped */}
