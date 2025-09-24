@@ -45,7 +45,7 @@ const Home = () => {
           </div>
 
           {/* Rice Images Section */}
-          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4 pt-4 order-2 md:order-2">
+          <div className="flex flex-row md:flex-row items-center justify-center md:justify-start gap-4 pt-4 order-2 md:order-2">
             <button onClick={() => navigate("/rice1")}>
               <img
                 src={rice1}
