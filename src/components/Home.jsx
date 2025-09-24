@@ -43,7 +43,16 @@ const Home = () => {
               taste, and the perfect texture that makes every plate memorable.
             </p>
           </div>
-
+          {/* Right Section (Image) */}
+          <div className="md:w-1/2 flex items-center justify-center order-0 md:order-1 mb-8 md:mb-0">
+            <div className="bg-[#3D0707] rounded-full p-4 md:p-6 shadow-xl">
+              <img
+                src={products}
+                alt="Tastic Products"
+                className="max-w-full h-auto rounded-xl"
+              />
+            </div>
+          </div>
           {/* Rice Images Section */}
           <div className="flex md:flex-row items-center justify-center md:justify-start gap-4 pt-4 order-2 md:order-2">
             <button onClick={() => navigate("/rice1")}>
@@ -69,17 +78,6 @@ const Home = () => {
                 className="w-20 h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
               />
             </button>
-          </div>
-        </div>
-
-        {/* Right Section (Image) */}
-        <div className="md:w-1/2 flex items-center justify-center order-0 md:order-1 mb-8 md:mb-0">
-          <div className="bg-[#3D0707] rounded-full p-4 md:p-6 shadow-xl">
-            <img
-              src={products}
-              alt="Tastic Products"
-              className="max-w-full h-auto rounded-xl"
-            />
           </div>
         </div>
       </div>
