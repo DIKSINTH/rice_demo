@@ -12,6 +12,7 @@ import Products from "./Products.jsx";
 import AboutUs from "./AboutUs.jsx";
 import Contact from "./Contact.jsx";
 import FAQ from "./Faq.jsx";
+
 const Rice1 = () => {
   const navigate = useNavigate();
 
@@ -28,18 +29,22 @@ const Rice1 = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Welcome to Tastic
           </h1>
-          <p className="text-sm md:text-base leading-relaxed text-gray-200">
-            At Tastic, we believe that every meal should be a moment of
-            perfection. For generations, we have been bringing families together
-            with rice that is not only delicious but also wholesome and
-            reliable.
-          </p>
-          <p className="text-sm md:text-base leading-relaxed text-gray-200">
-            Our promise is simple – Perfect. Every time. Whether you’re cooking
-            a quick family dinner, a nourishing health-conscious dish, or a
-            special feast, Tastic rice delivers consistent quality, great taste,
-            and the perfect texture that makes every plate memorable.
-          </p>
+
+          {/* Paragraphs grouped in one div */}
+          <div className="space-y-4">
+            <p className="text-sm md:text-base leading-relaxed text-gray-200">
+              At Tastic, we believe that every meal should be a moment of
+              perfection. For generations, we have been bringing families
+              together with rice that is not only delicious but also wholesome
+              and reliable.
+            </p>
+            <p className="text-sm md:text-base leading-relaxed text-gray-200">
+              Our promise is simple – Perfect. Every time. Whether you’re
+              cooking a quick family dinner, a nourishing health-conscious dish,
+              or a special feast, Tastic rice delivers consistent quality, great
+              taste, and the perfect texture that makes every plate memorable.
+            </p>
+          </div>
 
           {/* Small rice images as buttons */}
           <div className="flex items-center justify-center md:justify-start gap-4 pt-4">
@@ -81,6 +86,7 @@ const Rice1 = () => {
           </div>
         </div>
       </div>
+
       <AboutUs />
       <Products />
       <FAQ />
