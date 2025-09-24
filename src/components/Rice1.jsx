@@ -39,19 +39,6 @@ const Rice1 = () => {
             and the perfect texture that makes every plate memorable.
           </p>
 
-          {/* Right Section */}
-          <div className="md:w-1/2 flex items-center justify-center mt-10 md:mt-0">
-            <div
-              className="bg-[#3D0707] rounded-full p-4 md:p-6 shadow-xl"
-              data-aos="fade-down-left"
-            >
-              <img
-                src={products}
-                alt="Rice1 Product"
-                className="max-w-full h-auto rounded-xl"
-              />
-            </div>
-          </div>
           {/* Small rice images as buttons */}
           <div className="flex-row flex items-center justify-center md:justify-start gap-4 pt-4">
             <button onClick={() => navigate("/rice1")}>
@@ -75,6 +62,19 @@ const Rice1 = () => {
                 className="w-20 h-20 rounded-full border-4 border-white shadow-lg hover:scale-110 transition-transform"
               />
             </button>
+          </div>
+          {/* Right Section */}
+          <div className="md:w-1/2 flex items-center justify-center mt-10 md:mt-0">
+            <div
+              className="bg-[#3D0707] rounded-full p-4 md:p-6 shadow-xl"
+              data-aos="fade-down-left"
+            >
+              <img
+                src={products}
+                alt="Rice1 Product"
+                className="max-w-full h-auto rounded-xl"
+              />
+            </div>
           </div>
         </div>
       </div>
