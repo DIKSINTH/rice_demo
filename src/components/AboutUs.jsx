@@ -5,15 +5,6 @@ const AboutUs = () => {
   return (
     <div className="px-6 md:px-16 py-12 bg-[#5A0B0B] text-gray-800">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Left Side - Image */}
-        <div className="flex justify-center">
-          <img
-            src={aboutImg}
-            alt="About Us"
-            className="rounded-lg shadow-lg w-full max-w-md object-cover"
-          />
-        </div>
-
         {/* Right Side - Text */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-[#ffffff] mb-6">
@@ -38,6 +29,14 @@ const AboutUs = () => {
             innovation—because for us, it’s not just about rice, it’s about
             creating a healthier and happier tomorrow.
           </p>
+        </div>
+        {/* Left Side - Image */}
+        <div className="flex justify-center">
+          <img
+            src={aboutImg}
+            alt="About Us"
+            className="rounded-lg shadow-lg w-full max-w-md object-cover"
+          />
         </div>
       </div>
     </div>
