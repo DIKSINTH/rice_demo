@@ -26,7 +26,7 @@ const Home = () => {
           {/* Text Section */}
           <div className="order-1 md:order-1">
             <h1 className="text-4xl md:text-5xl font-bold text-white">
-              Welcome
+              Welcome to Tastic
             </h1>
 
             <p className="hidden text-sm md:text-base leading-relaxed text-gray-200">
