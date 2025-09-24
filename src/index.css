@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @keyframes circleRoll {
   0% {
     transform: rotate(0deg) scale(1);
