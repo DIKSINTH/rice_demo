@@ -66,13 +66,12 @@ const Home = () => {
                 src={rice3}
                 alt="Rice3"
                 className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
-              />
-              ]{" "}
+              />{" "}
             </button>{" "}
           </div>
           {/* 4. Paragraphs (Code Order: 4) */}{" "}
           {/* VISUAL POSITION (lg): Middle-Left (order-3), Width 50% */}{" "}
-          <div className="space-y-4 text-sm sm:text-base md:text-lg leading-relaxed text-gray-200 max-w-2xl lg:max-w-none pt-8 lg:pt-0 lg:order-3 w-full lg:w-[45%]">
+          <div className="space-y-4 text-sm sm:text-base md:text-lg leading-relaxed text-gray-200 max-w-2xl lg:pb-3.5 lg:max-w-none lg:order-3 w-full lg:w-[45%] ">
             {" "}
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
@@ -80,17 +79,15 @@ const Home = () => {
               doloremque quod hic dolorem eum, eveniet, ab tempore velit harum
               debitis assumenda in deleniti magni sapiente provident quisquam.{" "}
             </p>{" "}
-          </div>
-                 {" "}
-        </div>
-             {" "}
+          </div>{" "}
+        </div>{" "}
       </div>
-            {/* Other Sections */}
-            <AboutUs />
-            <Products />
-            <FAQ />
-            <Contact />
-            <Footer />   {" "}
+      {/* Other Sections */}
+      <AboutUs />
+      <Products />
+      <FAQ />
+      <Contact />
+      <Footer />{" "}
     </>
   );
 };
