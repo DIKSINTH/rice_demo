@@ -20,28 +20,12 @@ const Home = () => {
 
       {/* Hero Section */}
       <div className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-12 bg-[#5A0B0B] gap-10">
-        {/* Left Section (Text + Paragraphs + Small Images) */}
+        {/* Left Section (everything except main image) */}
         <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left space-y-6">
           {/* Heading */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
             Welcome to Tastic
           </h1>
-
-          {/* Paragraphs */}
-          <div className="space-y-4 text-sm sm:text-base md:text-lg leading-relaxed text-gray-200">
-            <p>
-              At Tastic, we believe that every meal should be a moment of
-              perfection. For generations, we have been bringing families
-              together with rice that is not only delicious but also wholesome
-              and reliable.
-            </p>
-            <p>
-              Our promise is simple – Perfect. Every time. Whether you’re
-              cooking a quick family dinner, a nourishing health-conscious dish,
-              or a special feast, Tastic rice delivers consistent quality, great
-              taste, and the perfect texture that makes every plate memorable.
-            </p>
-          </div>
 
           {/* Small rice images as buttons */}
           <div className="flex items-center justify-center md:justify-start gap-4 pt-4 flex-wrap">
@@ -66,6 +50,22 @@ const Home = () => {
                 className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg cursor-pointer hover:scale-110 transition-transform"
               />
             </button>
+          </div>
+
+          {/* Two paragraphs grouped */}
+          <div className="space-y-4 text-sm sm:text-base md:text-lg leading-relaxed text-gray-200">
+            <p>
+              At Tastic, we believe that every meal should be a moment of
+              perfection. For generations, we have been bringing families
+              together with rice that is not only delicious but also wholesome
+              and reliable.
+            </p>
+            <p>
+              Our promise is simple – Perfect. Every time. Whether you’re
+              cooking a quick family dinner, a nourishing health-conscious dish,
+              or a special feast, Tastic rice delivers consistent quality, great
+              taste, and the perfect texture that makes every plate memorable.
+            </p>
           </div>
         </div>
 
